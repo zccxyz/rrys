@@ -3,5 +3,6 @@ package main
 import "rrys/code"
 
 func main() {
-	code.TvRun()
+	go code.VideoRun()
+	code.UpdateVideo()
 }
